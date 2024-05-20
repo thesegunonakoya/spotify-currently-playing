@@ -2,7 +2,7 @@
 
 <samp>
 
-This is a simple web application that displays the currently playing song on Spotify. It utilizes Spotify's Web API to fetch the currently playing song information and displays it on a webpage.
+This is a simple web application that showcases the song currently playing on Spotify by leveraging Spotify's Web API to fetch and display this information in real-time on a webpage. You can see a live demonstration of this feature on <a href="https://thesegunonakoya.vercel.app" target="_blank">my portfolio</a>, where the header dynamically updates to show what I am currently listening to.
 
 </samp>
 
