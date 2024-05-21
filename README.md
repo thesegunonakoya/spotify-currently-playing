@@ -18,8 +18,12 @@ This is a simple web application that showcases the song currently playing on Sp
 
 ## Prerequisites
 
+<samp>
+
 - Ensure Node.js and npm are installed on your system.
 - Create a Spotify Developer account if you haven't already.
+
+</samp>
 
 ## Setup Instructions
 
