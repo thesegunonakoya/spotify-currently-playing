@@ -1,6 +1,6 @@
 async function getAccessToken() {
     try {
-        const response = await fetch('/api/refreshSpotifyAccessToken');
+        const response = await fetch('./api/refreshToken');
         if (!response.ok) {
             throw new Error('Failed to fetch access token: ' + response.statusText);
         }

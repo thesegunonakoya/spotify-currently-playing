@@ -1,9 +1,9 @@
 const fetch = require('node-fetch');
 
 module.exports = async (req, res) => {
-  const clientId = 'CLIENT_ID';
-  const clientSecret = 'CLIENT_SECRET';
-  const refreshToken = 'REFRESH_TOKEN';
+  const clientId = 'd2c2ae197b8d4f3bb9c069d1a528817d';
+  const clientSecret = '01883acb64ae4272ae252f576e4ea9f7';
+  const refreshToken = 'AQA15K_GrH3pwdVWA9HYnW0a9LSF4uz6264AReZO0uBSbm3XDzH8SSkdbpbivJM63AKa3nLf6VN8-sJKIkjuWdrjA-TJmVSzKyJOe4vjZCdov9T66OdQmS_k6-jmIGjKcYI';
 
   const base64Encode = (str) => Buffer.from(str).toString('base64');
 
