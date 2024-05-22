@@ -2,7 +2,7 @@
 
 <samp>
 
-This is a simple web application that showcases the song you are currently playing on Spotify by leveraging Spotify's Web API to fetch and display this information in real-time on a webpage. You can see a live demonstration of this feature on <a href="https://thesegunonakoya.me" target="_blank">my personal website</a>, where the header dynamically updates to show what I am currently listening to.
+A lot is happening in the world right now but here is a simple web application that showcases the song you are currently playing on Spotify by leveraging Spotify's Web API to fetch and display this information in real-time on a webpage. You can see a live demonstration of this feature on <a href="https://thesegunonakoya.me" target="_blank">my personal website</a>, where the header dynamically updates to show what I am currently listening to. Unlike you, i have a very good taste in music.
 
 </samp>
 
@@ -10,9 +10,9 @@ This is a simple web application that showcases the song you are currently playi
 
 <samp>
 
-- Displays the currently playing song on Spotify.
+- Displays the currently playing song on Spotify no matter how boring or weird it is.
 - Updates the display in real-time to reflect any changes in the currently playing song.
-- With an additional greeting message based on the time of day ("I'm currently listening to 'BLUE' by Billie Eilish 🔥  How's your night going? 🌇").
+- With an additional greeting message based on the time of day to make you seem a bit polite even though you are not ("I'm currently listening to 'BLUE' by Billie Eilish 🔥  How's your night going? 🌇").
 
 </samp>
 
@@ -22,6 +22,8 @@ This is a simple web application that showcases the song you are currently playi
 
 - Ensure Node.js and npm are installed on your system.
 - Create a Spotify Developer account if you haven't already.
+- Get a first aid box close by just in case.
+- Breathe in a breathe out deeply.
 
 </samp>
 
@@ -72,5 +74,13 @@ Open the /api/refreshToken.js file and update the placeholders CLIENT_ID, CLIENT
 9. Implement the Frontend
 
 The /js/spotifyAPI.js script manages the retrieval of a new access token from the /api/refreshToken endpoint. It then utilizes this token to fetch the currently playing track from Spotify and updates the webpage. Ensure you have an HTML element with the ID currently-playing to display the track information.
+
+</samp>
+
+## Conclusion
+
+<samp>
+
+I really hope you got it right, if you didn't - that on you. I tried my ******* best man. Cheers!
 
 </samp>
