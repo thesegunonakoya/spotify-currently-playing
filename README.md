@@ -42,15 +42,21 @@ Follow these steps to set up and deploy the Spotify Currently Playing API:
 
 1. Clone this repository to your local machine with 
 
+```
 git clone https://github.com/thesegunonakoya/spotify-currently-playing.git
+```
 
 2. Navigate to the project directory:
 
+```
 cd spotify-currently-playing
+```
 
 3. Install dependencies using npm:
 
+```
 npm install
+```
 
 </samp>
 
@@ -68,9 +74,13 @@ Before deploying the serverless function, you need to configure the Spotify API 
 
 4. Update the spotify.js script with your Spotify API credentials:
 
+```
 const clientId = 'YOUR_CLIENT_ID';
+
 const clientSecret = 'YOUR_CLIENT_SECRET';
+
 const refreshToken = 'YOUR_REFRESH_TOKEN';
+```
 
 </samp>
 
@@ -82,15 +92,21 @@ Now you're ready to deploy the serverless function to Vercel:
 
 1. Install the Vercel CLI globally:
 
+```
 npm install -g vercel
+```
 
 2. Log in to your Vercel account using the CLI:
 
+```
 vercel login
+```
 
 3. Deploy the project to Vercel:
 
+```
 vercel --prod
+```
 
 4. Follow the prompts to confirm the deployment settings.
 
@@ -102,7 +118,9 @@ vercel --prod
 
 Once deployed, you can access the Spotify Currently Playing API endpoint using the generated URL:
 
+```
 https://your-vercel-project-url.vercel.app/api/spotify
+```
 
 Visiting this URL will return JSON data containing information about the track currently playing on Spotify.
 
@@ -135,7 +153,9 @@ This project is licensed under the <a href="https://en.wikipedia.org/wiki/MIT_Li
 <samp>
 
 <a href="https://vercel.com/" target="_blank">Vercel</a> for providing an excellent platform for serverless deployments.
+
 <a href="https://developer.spotify.com/" target="_blank">Spotify Developer</a> for the Spotify API.
+
 <a href="https://github.com/deji-ice" target="_blank">Ayodeji Atanda</a> for the inspiration and continuous guidance.
 
 </samp>
