@@ -39,7 +39,10 @@ Follow these steps to set up and deploy the Spotify Currently Playing API:
 ## Installation
 
 <samp>
-1. Clone this repository to your local machine with git clone https://github.com/thesegunonakoya/spotify-currently-playing.git
+
+1. Clone this repository to your local machine with 
+
+git clone https://github.com/thesegunonakoya/spotify-currently-playing.git
 
 2. Navigate to the project directory:
 
