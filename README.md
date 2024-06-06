@@ -114,9 +114,10 @@ Visiting this URL will return JSON data containing information about the track c
 
 To fetch and display the currently playing track on the frontend, you can use the provided script.js. Here's how you can integrate it into your HTML:
 
-```html
+```
 <div id="currently-playing"></div>
 <script src="script.js"></script>
+```
 
 </samp>
 
