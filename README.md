@@ -43,11 +43,9 @@ Follow these steps to set up and deploy the Spotify Currently Playing API:
 
 git clone https://github.com/thesegunonakoya/spotify-currently-playing.git
 
-
 2. Navigate to the project directory:
 
 cd spotify-currently-playing
-
 
 3. Install dependencies using npm:
 
